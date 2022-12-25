@@ -1,0 +1,130 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  background: MediumSeaGreen;
+  --bs-navbar-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.content {
+  background-color: rgba(120, 119, 119, 0.6);
+  width: 1200px;
+  margin-left: 700px;
+}
+
+@media (max-width: 1500px) {
+  .content {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
+
+.logo1-case {
+  background-color: white;
+  border-radius: 20px;
+  height: 130px;
+  width: 171px;
+}
+
+.logo1 {
+  padding-left: 20px;
+  height: 130px;
+  width: 150px;
+}
+
+.case1-text {
+  padding-left: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.navbar-nav {
+  font-size: 1.15rem;
+  color: #000;
+}
+.nav-link:hover {
+  color: aliceblue;
+  font-size: bold;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -141%;
+}
+
+.dropdown-menu.show {
+  max-width: 116px;
+}
+.container {
+  padding-top: 100px;
+}
+.card {
+  width: 590px;
+}
+
+@media screen and (max-width: 710px) {
+  .card,
+  .card iframe {
+    width: 90vw;
+  }
+}
+/*footer*/
+.footer {
+  margin-top: 90px;
+  background-color: gray;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.footer-icons a {
+  color: black;
+}
+
+.list-unstyled {
+  padding-top: 20px;
+}
+
+.icons {
+  width: 37px;
+}
+
+.icons:hover {
+  transform: scale(1);
+  transition: all 1s ease;
+}
+
+.footer-icons {
+  padding-top: 5px;
+}
+
+.vk {
+  margin-bottom: 15px;
+}
+
+.logo2 {
+  border-radius: 20px;
+  height: 120px;
+  width: 120px;
+}
+
+.autor {
+  padding-top: 20px;
+}
+
+.autor-text {
+  font-size: 25px;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .f_icons {
+    width: 110px;
+  }
+}
